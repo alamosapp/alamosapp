@@ -68,7 +68,53 @@
         <div class="col-lg-7 my-auto">
           <div class="header-content mx-auto">
             <h1 class="mb-5">¿Quieres vivir una nueva experiencia en la compra y venta de vehículos?</h1>
-            <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>
+
+            
+         <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSf2CO--H34TIiUTwEtVsh8HndbccPg8O7VAPqyArqlL9nBiMg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+  <input type="email" tabindex="-1" class="email-field" name="entry.227024020" required id="entry.227024020" placeholder="Ingresa tu email..." onfocus="myFunction()"><br>
+  <input type="text" tabindex="-1" class="text-field" name="entry.253823004" id="entry.253823004" placeholder="Nombre..." onfocus="myFunction()"><br>
+
+  <input type="submit" value="¡QUIERO SABER MÁS!"  id="validate" class="btn btn-outline btn-xl">
+</form>
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+<script type="text/javascript">var submitted=false;</script>
+
+<script type="text/javascript">
+
+function validateEmail(emailAddress) {
+  var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(emailAddress);
+}
+if (screen && screen.width < 780) {
+function validate() {
+  var emailValue = document.getElementById("entry.227024020").value;
+  if (!validateEmail(emailValue)) {
+  	document.getElementById("entry.227024020").className += " red-border formInvalid";
+    alert("Por favor ingresa un email válido");
+    document.getElementById("entry.227024020").removeAttribute("formInvalid")
+    
+    return false;
+  	}
+  }
+ }
+  
+$("#validate").bind("click", validate); 
+
+</script>
+
+<script type="text/javascript">
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(0);
+  $('#gform').prepend('¡Gracias por tu interés, pronto sabrás de nosotros!');
+  }); 
+</script>
+            
+            
+            
+            
+            
           </div>
         </div>
         <div class="col-lg-5 my-auto">
