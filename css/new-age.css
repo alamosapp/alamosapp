@@ -432,3 +432,106 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   font-size: 11px;
   padding: 15px 45px;
 }
+
+.email-field {
+    border-radius: 300px;
+    padding-left: 12px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    color: #333333;
+    border: none;
+    padding: 12px 19px 12px 19px;
+    width: 90%;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+@media (min-width: 768px) {
+  .email-field {
+    margin-bottom: 28px;
+    font-size: 19px;
+    width: 70%;
+   }
+   .mobile-only {
+   	display: none;
+   }
+ }
+ @media (max-width: 767px) {
+  .email-field {
+    text-align: center;
+   }
+   .navbar-blog {
+   	color: #222222 !important;
+   }
+ }
+ .red-border {
+ 	border: 2px solid #ff0000;
+ 	color: red;
+ }
+input.formInvalid::-webkit-input-placeholder {
+color: red !important;
+}
+ 
+input.formInvalid:-moz-placeholder { /* Firefox 18- */
+color: red !important;  
+}
+ 
+input.formInvalid::-moz-placeholder {  /* Firefox 19+ */
+color: red !important;  
+}
+ 
+input.formInvalid:-ms-input-placeholder {  
+color: red !important;  
+}
+
+input.formInvalid:focus { 
+    color: #333333;
+    border: none;
+}
+
+input.formInvalid:focus::-webkit-input-placeholder {
+color: #989898 !important;
+}
+ 
+input.formInvalid:focus:-moz-placeholder { /* Firefox 18- */
+color: #989898 !important;  
+}
+
+input.formInvalid:focus::-moz-placeholder {  /* Firefox 19+ */
+color: #989898 !important;  
+}
+ 
+input.formInvalid:focus:-ms-input-placeholder {  
+color: #989898 !important;  
+}
+.text-field {
+    border-radius: 300px;
+    padding-left: 12px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    color: #333333;
+    border: none;
+    padding: 12px 19px 12px 19px;
+    width: 90%;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+@media (min-width: 768px) {
+  .text-field {
+    margin-bottom: 28px;
+    font-size: 19px;
+    width: 70%;
+   }
+   .mobile-only {
+   	display: none;
+   }
+ }
+ @media (max-width: 767px) {
+  .text-field {
+    text-align: center;
+   }
+   .navbar-blog {
+   	color: #222222 !important;
+   }
+ }
+ .red-border {
+ 	border: 2px solid #ff0000;
+ 	color: red;
+ }
