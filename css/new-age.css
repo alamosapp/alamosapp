@@ -60,7 +60,8 @@ i {
   cursor:pointer;
   /opacity:0;
   pointer-events:none;
-  transition:opacity .3s infinite;
+  transition:opacity .3s ease;
+  animation: animate 1.5s infinite;
 }
 
 section {
