@@ -50,6 +50,18 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
+i {
+  position:fixed;
+  bottom: 40px;
+  right:40px;
+  background:crimson;
+  padding:25px;
+  color:#fff;
+  cursor:pointer;
+  /opacity:0;
+  pointer-events:none;
+  transition:opacity .3s infinite;
+}
 
 section {
   padding: 100px 0;
@@ -540,18 +552,6 @@ color: #989898 !important;
  	color: red;
  }
 
-i {
-  position:fixed;
-  bottom: 40px;
-  right:40px;
-  background:crimson;
-  padding:25px;
-  color:#fff;
-  cursor:pointer;
-  /opacity:0;
-  pointer-events:none;
-  transition:opacity .3s infinite;
-}
 
 
   
