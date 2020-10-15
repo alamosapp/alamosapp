@@ -50,20 +50,6 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
-ole {
-  position:fixed;
-  bottom: 40px;
-  right:40px;
-  background:crimson;
-  padding:25px;
-  color:#fff;
-  cursor:pointer;
-  /opacity:0;
-  pointer-events:none;
-  transition:opacity .3s ease;
-  animation: animate 1.5s infinite;
-}
-
 section {
   padding: 100px 0;
 }
