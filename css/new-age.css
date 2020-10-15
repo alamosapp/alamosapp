@@ -540,19 +540,39 @@ color: #989898 !important;
  }
 
 #myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 50px; /* Place the button at the bottom of the page */
-  left: 200px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 25px; /* Rounded corners */
-  font-size: 14px; /* Increase font size */
+box-sizing: border-box;
+margin: 0px;
+-webkit-font-smoothing: antialiased;
+appearance: none;
+text-size-adjust: 100%;
+font-weight: inherit;
+padding: 0px;
+text-rendering: optimizelegibility;
+padding-left: 1.25rem;
+padding-right: 1.25rem;
+border-radius: 6.25rem;
+background: rgb(138, 5, 190);
+color: rgb(255, 255, 255);
+--rippleLayerColor: rgba(255,255,255,0.2);
+height: 3rem;
+display: flex;
+-webkit-box-pack: center;
+justify-content: center;
+cursor: pointer;
+outline: 0px;
+-webkit-box-align: center;
+align-items: center;
+vertical-align: middle;
+overflow: hidden;
+border: 0px;
+transform: translate3d(0px, 0px, 0px);
+bottom: 0px;
+left: 0px;
+position: initial;
+width: auto;
+margin-bottom: 0px;
+margin-left: auto;
+margin-right: 1rem;
 }
 
 #myBtn:hover {
