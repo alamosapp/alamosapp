@@ -543,7 +543,7 @@ color: #989898 !important;
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 50px; /* Place the button at the bottom of the page */
-  left: 150px; /* Place the button 30px from the right */
+  left: 200px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
@@ -552,7 +552,7 @@ color: #989898 !important;
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 25px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+  font-size: 14px; /* Increase font size */
 }
 
 #myBtn:hover {
